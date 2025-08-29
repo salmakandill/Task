@@ -1,0 +1,10 @@
+[safe]
+	directory = C:\\flutter\\bin
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Salma Osama
+	email = salma2005osama@gmail.com
